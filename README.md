@@ -26,25 +26,25 @@ Spring Cloud Config
 
 1. Clone o repositório:
    
-git clone https://github.com/AllanGabriel03/MicroService.git
-cd MicroService
+ git clone https://github.com/AllanGabriel03/MicroService.git
+ cd MicroService
 
 2. Inicie o MongoDB localmente:
 
 3. Execute o microsserviço de configuração:
 
-cd config
-mvn spring-boot:run
+ cd config
+ mvn spring-boot:run
 
 4. Em seguida, execute os demais microsserviços:
 
-cd cliente
-mvn spring-boot:run
+ cd cliente
+ mvn spring-boot:run
 
-cd produto
-mvn spring-boot:run
+ cd produto
+ mvn spring-boot:run
 
-cd venda
-mvn spring-boot:run
+ cd venda
+ mvn spring-boot:run
 
 
